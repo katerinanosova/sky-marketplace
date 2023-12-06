@@ -24,7 +24,7 @@ export const CardItemContainer = styled.div`
             flex-direction: column;
 
     @media screen and (max-width: 590px) {
-        width: 137px;
+        width: 100%;
         height: 293px;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -44,7 +44,7 @@ export const CardImageWrapper = styled.div`
     @media screen and (max-width: 590px) {
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
-        width: 137px;
+        width: 100%;
         height: 132px;
         background-color: #D9D9D9;
     }
@@ -69,7 +69,12 @@ export const CardImage = styled.img`
 `
 
 export const CardContent = styled.div`
+    @media screen and (max-width: 590px) {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
 
+    }
 `
 
 export const CardTitle = styled(Link)`

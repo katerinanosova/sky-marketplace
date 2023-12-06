@@ -89,12 +89,16 @@ export const MainContent = styled.div`
 
     @media screen and (max-width: 590px) {
         width: 100%;
+        height: 100%;
         margin: 0 auto;
         overflow: hidden;
-        position: fixed;
-        right: 0;
-        left: 0;
+        // position: fixed;
+        // right: 0;
+        // left: 0;
         top: 134px;
         bottom: 84px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
     }
 `
