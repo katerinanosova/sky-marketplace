@@ -1,9 +1,8 @@
-import './App.css';
-import { Main } from './Pages/Main/main';
+import { AppRoutes } from './AppRoutes';
 
 function App() {
   return (
-      <Main />
+      <AppRoutes />
   );
 }
 
